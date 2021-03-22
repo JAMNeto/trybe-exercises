@@ -1,0 +1,24 @@
+body {
+    background-image: url(images/background.jpeg);
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 20px;
+}
+nav {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.image{   
+    max-width: 500px;
+    border-left: 400px;
+}
+
+.block{
+    background-color: aliceblue;
+    
+}
+h1, footer{
+    text-align: center;
+}
