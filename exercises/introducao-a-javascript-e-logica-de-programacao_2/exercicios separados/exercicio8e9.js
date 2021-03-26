@@ -11,6 +11,10 @@ for(let index = 1; index <= 25; index += 1){
 console.log(numbers);
 
 //Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
+//criar uma nova array para armazenar os novos numeros
+//criar um loop que percorra o array numero
+//dentro desse loop, armazenar a divisão dos numeros por 2 no novo array criado
+//imprimir o resultado
 let divs = [];
 for(let index = 0; index < numbers.length; index += 1){
     divs.push((numbers[index] / 2));
