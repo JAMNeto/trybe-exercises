@@ -24,3 +24,4 @@ for(index in info){
 for(index in info){
     console.log(info[index]);
 }
+
