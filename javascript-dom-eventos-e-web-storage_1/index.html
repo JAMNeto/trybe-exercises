@@ -39,6 +39,27 @@
       </div>
     </div>
     <script>
+        let tagP = document.getElementsByTagName('p')[1];
+        tagP.textContent = 'Daqui a 2 anos me vejo um profissional bem sucedido na área de TI!';
+
+        let divMain = document.getElementsByClassName('main-content')[0];
+        divMain.style.backgroundColor = 'rgb(76,164,109)';
+
+        let divMain2 = document.getElementsByClassName('center-content')[0];
+        divMain2.style.backgroundColor = 'white';
+        
+        let tagChange = document.getElementsByTagName('h1')[0];
+        tagChange.textContent = 'JavaScript'
+        
+        let allP = document.getElementsByTagName('p');
+        let newP = [];
+        for (let index = 0; index < allP.length; index += 1) {
+            newP.push(allP[index].toUpperCase());
+        }
+        for (let index = 0; index < allP.length; index += 1) {
+            console.log(newP[index]);
+        }
+        
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
