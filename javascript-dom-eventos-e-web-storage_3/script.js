@@ -30,7 +30,9 @@ function createDate() {
     }
     return listDays;
 }
-    listDays = createDate();
-  
-  // Escreva seu código abaixo.
-  //Exercicio 1
+
+listDays = createDate();
+
+function createFeriados(, 'button') {
+    document.createElement()
+}
