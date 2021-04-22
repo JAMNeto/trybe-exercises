@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* Small devices */
+@media screen and (max-width: 600px) {
+    header {
+        display: flex;
+        justify-items: center;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+/* Medium devices */
+@media screen and (min-width: 768px) {
+    
+}
+/* Large devices */
+@media screen and (min-width: 992px) {
+    
+}
