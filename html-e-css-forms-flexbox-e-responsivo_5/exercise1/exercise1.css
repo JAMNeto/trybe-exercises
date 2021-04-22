@@ -1,0 +1,32 @@
+body {
+    font-size: x-large;
+    margin: 10px;
+}
+h1 {
+    font-size: xx-large;
+
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+    padding: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: green;
+        font-size: large;
+        margin: 30px;
+    }
+    figure {
+        display: inline-block;
+    }
+    
+}
